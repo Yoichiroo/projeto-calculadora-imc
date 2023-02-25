@@ -79,8 +79,8 @@ const uRes = (resultado) => {
 
 export default function App() {
   
-  const [peso, setPeso] = useState(0)
-  const [altura, setAltura] = useState(0)
+  const [peso, setPeso] = useState(60)
+  const [altura, setAltura] = useState(1.73)
   const [res, setResultado] = useState(0)
 
   return(
