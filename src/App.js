@@ -44,7 +44,7 @@ const userPeso = (peso, sPeso) => {
   return(
     <div>
       <label>Peso: </label>
-      <input type="text" value={peso} onChange={(elemento) => sPeso(elemento.target.value)}></input>
+      <input type="text" value={peso} onChange={(elemento) => sPeso(elemento.target.value)} placeholder="60"></input>
     </div>
   )
 }
@@ -53,7 +53,7 @@ const userAltura = (altura, sAltura) => {
   return(
     <div>
       <label>Altura: </label>
-      <input type="text" value={altura} onChange={(elemento) => sAltura(elemento.target.value)}></input>
+      <input type="text" value={altura} onChange={(elemento) => sAltura(elemento.target.value)} placeholder="1.70"></input>
     </div>
   )
 }
